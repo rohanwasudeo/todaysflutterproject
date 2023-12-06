@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
       backgroundColor: Colors.white,
       bottomSheet: Container(
         color:Colors.red,
-        height: 40,
+        height: 30,
         width: MediaQuery.of(context).size.width,
         child: const Center(child: Text("This is a bottom sheet",style: TextStyle(color:Colors.white),),),
 
